@@ -1,0 +1,14 @@
+/home/alone/Documentos/workspace/casadocodigo/src/main/java/br/com/casadocodigo/loja/models/Produto.java
+/home/alone/Documentos/workspace/casadocodigo/src/main/java/br/com/casadocodigo/loja/models/Preco.java
+/home/alone/Documentos/workspace/casadocodigo/src/main/java/br/com/casadocodigo/loja/controllers/HomeController.java
+/home/alone/Documentos/workspace/casadocodigo/src/main/java/br/com/casadocodigo/loja/controllers/ProdutosController.java
+/home/alone/Documentos/workspace/casadocodigo/src/main/java/br/com/casadocodigo/loja/models/TipoPreco.java
+/home/alone/Documentos/workspace/casadocodigo/src/main/java/br/com/casadocodigo/loja/infra/FileSaver.java
+/home/alone/Documentos/workspace/casadocodigo/src/main/java/br/com/casadocodigo/loja/models/CarrinhoItem.java
+/home/alone/Documentos/workspace/casadocodigo/src/main/java/br/com/casadocodigo/loja/models/CarrinhoCompras.java
+/home/alone/Documentos/workspace/casadocodigo/src/main/java/br/com/casadocodigo/loja/conf/AppWebConfiguration.java
+/home/alone/Documentos/workspace/casadocodigo/src/main/java/br/com/casadocodigo/loja/conf/ServletSpringMVC.java
+/home/alone/Documentos/workspace/casadocodigo/src/main/java/br/com/casadocodigo/loja/controllers/CarrinhoComprasController.java
+/home/alone/Documentos/workspace/casadocodigo/src/main/java/br/com/casadocodigo/loja/conf/JPAConfiguration.java
+/home/alone/Documentos/workspace/casadocodigo/src/main/java/br/com/casadocodigo/loja/daos/ProdutoDAO.java
+/home/alone/Documentos/workspace/casadocodigo/src/main/java/br/com/casadocodigo/loja/validation/ProdutoValidation.java
