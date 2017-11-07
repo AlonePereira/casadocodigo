@@ -18,11 +18,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 public class JPAConfiguration {
 
     @Bean
-<<<<<<< HEAD
-    public LocalContainerEntityManagerFactoryBean entityManagerFactory(DataSource dataSource) {
-=======
     public LocalContainerEntityManagerFactoryBean entityManagerFactory(DataSource dataSource, Properties aditionalProperties) {
->>>>>>> Initial Commit
 	LocalContainerEntityManagerFactoryBean factoryBean = new LocalContainerEntityManagerFactoryBean();
 	
 	//vendorAdapter é para saber qual implementação da JPA está sendo utilizada
@@ -31,11 +27,7 @@ public class JPAConfiguration {
 	factoryBean.setPackagesToScan("br.com.casadocodigo.loja.models");
 	
 	factoryBean.setDataSource(dataSource);
-<<<<<<< HEAD
-	factoryBean.setJpaProperties(aditionalProperties());	
-=======
 	factoryBean.setJpaProperties(aditionalProperties);	
->>>>>>> Initial Commit
 	
 	return factoryBean;
     }
@@ -54,16 +46,8 @@ public class JPAConfiguration {
     }
     
     @Bean
-<<<<<<< HEAD
-    public JpaTransactionManager jpaTransactionManager(EntityManagerFactory emf) {
-	return new JpaTransactionManager(emf);
-    }
-    
-    private Properties aditionalProperties() {
-=======
     @Profile("dev")
     public Properties aditionalProperties() {
->>>>>>> Initial Commit
 	Properties props = new Properties();
 	props.setProperty("hibernate.dialect", "org.hibernate.dialect.MySQL5Dialect");
 	props.setProperty("hibernate.show_sql", "true");
@@ -72,12 +56,9 @@ public class JPAConfiguration {
 	return props;
     }
     
-<<<<<<< HEAD
-=======
     @Bean
     public JpaTransactionManager jpaTransactionManager(EntityManagerFactory emf) {
 	return new JpaTransactionManager(emf);
     }
     
->>>>>>> Initial Commit
 }
