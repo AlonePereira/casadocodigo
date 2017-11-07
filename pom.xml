@@ -8,8 +8,6 @@
 	<packaging>war</packaging>
 	<build>
 		<finalName>casadocodigo</finalName>
-<<<<<<< HEAD
-=======
 		<plugins>
 			<plugin>
 			    <groupId>org.apache.maven.plugins</groupId>
@@ -35,7 +33,6 @@
 			    </executions>
 			</plugin>
 		</plugins>
->>>>>>> Initial Commit
 	</build>
 	<properties>
 		<failOnMissingWebXml>false</failOnMissingWebXml>
@@ -219,15 +216,12 @@
 		    <version>1.4.7</version>
 		</dependency>
 		
-<<<<<<< HEAD
-=======
 		<dependency>
 		    <groupId>org.postgresql</groupId>
 		    <artifactId>postgresql</artifactId>
 		    <version>9.4-1201-jdbc41</version>
 		</dependency>
 		
->>>>>>> Initial Commit
 	</dependencies>
 
 </project>
