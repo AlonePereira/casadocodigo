@@ -21,4 +21,8 @@ public class UsuarioDao implements UserDetailsService {
 	return manager.find(Usuario.class, email);
     }
 
+    public void gravar(Usuario usuario) {
+	manager.persist(usuario);
+    }
+
 }
